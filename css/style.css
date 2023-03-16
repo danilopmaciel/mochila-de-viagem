@@ -6,7 +6,7 @@ html {
 
 .conteudo {
     padding: 10vh 3em 0;
-    display: flex;
+    display: block;
     align-items: flex-start;
     gap: 2em;
 }
@@ -130,3 +130,8 @@ html {
     font-weight: 400;
 }
 
+@media (max-width: 640px){
+    .lista{
+        background-color: black;
+    }
+}
