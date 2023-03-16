@@ -131,6 +131,17 @@ html {
 }
 
 @media (max-width: 640px){
+    .principal {
+        flex-grow: 1;
+        flex-basis: auto;
+        min-width: 200px;
+        padding: 4em 2em 2em;
+        box-sizing: border-box;
+        display: flex;
+        background: #C5965F;
+        border-radius: 10px;
+        gap: 2em;
+    }
     .mochila {
         min-width: 100px;
         max-width: 100px;
